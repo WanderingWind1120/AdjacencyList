@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class AdjacencyList {
     ArrayList<LinkedList<Node>> LinkedListcontainer;
 
-    public void AdjacencyList(){
+    public AdjacencyList(){
         LinkedListcontainer = new ArrayList<>();
     }
     public void addNode(Node node){
